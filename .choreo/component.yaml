@@ -4,7 +4,6 @@ endpoints:
     displayName: choreo-sample-app
     service:
       port: 8080
-    type: GRPC
+    type: REST
     networkVisibilities: 
       - Public
-

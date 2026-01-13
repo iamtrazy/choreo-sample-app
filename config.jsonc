@@ -1,0 +1,19 @@
+{
+  "inbounds": [
+    {
+      "port": "$PORT",
+      "protocol": "vless",
+      "settings": {
+        "clients": [{ "id": "$UUID" }],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "path": "$PATH"
+        }
+      }
+    }
+  ]
+}

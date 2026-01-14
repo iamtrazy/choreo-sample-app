@@ -4,6 +4,6 @@ endpoints:
     displayName: choreo-sample-app
     service:
       port: 8080
-    type: REST
+    type: WS
     networkVisibilities: 
       - Public
